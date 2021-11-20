@@ -1,4 +1,4 @@
-package luis;
+package proyecto;
 
 public class Empleado {
     private String nombre;
@@ -7,6 +7,15 @@ public class Empleado {
     private double salario;
     private String horario;
 
+    public Empleado(String nombre, String ID, Fecha FNacimiento, double salario, String horario) {
+        this.nombre = nombre;
+        this.ID = ID;
+        this.FNacimiento = FNacimiento;
+        this.salario = salario;
+        this.horario = horario;
+    }
+    
+    
     public Empleado() {
     }
 
