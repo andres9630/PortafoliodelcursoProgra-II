@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyecto;
+package luis;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 /**
  *
- * 
+ * @author Luis Rodolfo
  */
 public class EmpresaTest {
 

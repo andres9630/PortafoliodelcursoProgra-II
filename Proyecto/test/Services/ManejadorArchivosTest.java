@@ -5,8 +5,6 @@
  */
 package luis;
 
-import proyecto.Empleado;
-import proyecto.ManejadorArchivos;
 import java.util.ArrayList;
 import static junit.framework.Assert.assertTrue;
 import org.junit.After;

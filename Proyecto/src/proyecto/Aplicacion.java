@@ -1,4 +1,4 @@
-package proyecto;
+package luis;
 
 import java.util.Scanner;
 
