@@ -1,4 +1,4 @@
-package luis;
+package proyecto;
 
 import java.util.Scanner;
 
@@ -25,7 +25,10 @@ public class Aplicacion {
                     deleteEmpleado(empresa);
                     break;
                 case "3":
-                    empresa.mostrarEmpleados();
+
+                    for (Empleado empleado : empresa.mostrarEmpleados()) {
+                        System.out.println(empleado);
+                    }
                     break;
                 case "4":
                     empresa.DeleteEmpleados();

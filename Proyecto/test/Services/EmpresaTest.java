@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package luis;
 
-import proyecto.Empresa;
-import proyecto.Fecha;
-import proyecto.Empleado;
+package proyecto;
+
+
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
@@ -16,7 +15,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 /**
  *
- * @author Luis Rodolfo
+
  */
 public class EmpresaTest {
 

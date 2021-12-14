@@ -1,6 +1,7 @@
-package luis;
+package proyecto;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Empresa {
 
@@ -12,8 +13,8 @@ public class Empresa {
         empleados = new ArrayList();
     }
 
-    public void addEmpleado(Empleado empleado) {
-        empleados.add(empleado);
+    public boolean addEmpleado(Empleado empleado) {
+        return empleados.add(empleado);      
     }
 
     public Empleado removeEmpleado(String ID) {
@@ -27,14 +28,27 @@ public class Empresa {
         return eliminar;
     }
 
-    public void mostrarEmpleados() {
+    public List<Empleado> mostrarEmpleados() {
+       return empleados;
+
+    }
+
+    public boolean DeleteEmpleados() {
+        return empleados.removeAll(empleados);
+
+    }
+    
+    public void guardarEnArchivo()
+    {
+        ManejadorArchivos.reiniciar("Empleados");
         for (Empleado empleado : empleados) {
-            System.out.println(empleado);
+            ManejadorArchivos.insertarDato("Empleados", empleado.toString());
         }
+    }
+    public void cargarArchivo()
+    {
+        empleados.addAll(ManejadorArchivos.obtenerArrayListArchivo("Empleados"));
 
     }
-
-    public void DeleteEmpleados() {
-        empleados.removeAll(empleados);
-    }
+    
 }
