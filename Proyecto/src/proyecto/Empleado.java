@@ -2,10 +2,13 @@ package proyecto;
 
 public class Empleado {
     private String nombre;
+    private String aPaterno;
+    private String aMaterno;
     private String ID;
     private Fecha FNacimiento;
     private double salario;
     private String horario;
+    private String fecha;
 
     public Empleado(String nombre, String ID, Fecha FNacimiento, double salario, String horario) {
         this.nombre = nombre;
@@ -15,7 +18,17 @@ public class Empleado {
         this.horario = horario;
     }
     
-    
+
+    public Empleado(String ID,String nombre, String aPaterno, String aMaterno, String FNacimiento, double salario, String horario) {
+        this.nombre = nombre;
+        this.ID = ID;
+        this.fecha = FNacimiento;
+        this.salario = salario;
+        this.horario = horario;
+        this.aPaterno = aPaterno;
+        this.aMaterno = aMaterno;
+    }
+
     public Empleado() {
     }
 
@@ -59,9 +72,33 @@ public class Empleado {
         this.horario = horario;
     }
 
+    public String getaPaterno() {
+        return aPaterno;
+    }
+
+    public void setaPaterno(String aPaterno) {
+        this.aPaterno = aPaterno;
+    }
+
+    public String getaMaterno() {
+        return aMaterno;
+    }
+
+    public void setaMaterno(String aMaterno) {
+        this.aMaterno = aMaterno;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
     @Override
     public String toString() {
-        return "Empleado{" + "nombre=" + nombre + ", ID=" + ID + ", FNacimiento=" + FNacimiento.toString() + ", salario=" + salario + ", horario=" + horario + '}';
+        return ID +","+nombre +","+aPaterno+","+aMaterno+","+ fecha  +","+ salario  +","+ horario+"\n" ;
     }
 
     

@@ -35,5 +35,20 @@ public class Empresa {
 
     public boolean DeleteEmpleados() {
         return empleados.removeAll(empleados);
+
     }
+    
+    public void guardarEnArchivo()
+    {
+        ManejadorArchivos.reiniciar("Empleados");
+        for (Empleado empleado : empleados) {
+            ManejadorArchivos.insertarDato("Empleados", empleado.toString());
+        }
+    }
+    public void cargarArchivo()
+    {
+        empleados.addAll(ManejadorArchivos.obtenerArrayListArchivo("Empleados"));
+
+    }
+    
 }

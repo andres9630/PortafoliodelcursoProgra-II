@@ -1,4 +1,6 @@
+
 package proyecto;
+
 
 /**
  * Esta clase es el manejador de archivos.
