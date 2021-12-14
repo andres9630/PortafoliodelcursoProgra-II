@@ -10,8 +10,13 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
+
 import luis.Empleado;
 import luis.Empresa;
+=======
+import proyecto.Empleado;
+import proyecto.Empresa;
+
 
 /**
  *
