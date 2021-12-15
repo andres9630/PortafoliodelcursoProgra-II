@@ -1,4 +1,4 @@
-package luis;
+package proyecto;
 
 public class Fecha {
     private int dia;

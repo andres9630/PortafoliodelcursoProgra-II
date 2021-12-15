@@ -10,8 +10,23 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
+<<<<<<< HEAD
 import luis.Empleado;
 import luis.Empresa;
+=======
+<<<<<<< HEAD
+
+import luis.Empleado;
+import luis.Empresa;
+=======
+import proyecto.Empleado;
+import proyecto.Empresa;
+
+=======
+import luis.Empleado;
+import luis.Empresa;
+>>>>>>> fe791e6 (Modificando proyecto)
+>>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
 
 /**
  *
