@@ -10,6 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
+<<<<<<< HEAD
 
 import luis.Empleado;
 import luis.Empresa;
@@ -17,6 +18,10 @@ import luis.Empresa;
 import proyecto.Empleado;
 import proyecto.Empresa;
 
+=======
+import luis.Empleado;
+import luis.Empresa;
+>>>>>>> fe791e6 (Modificando proyecto)
 
 /**
  *

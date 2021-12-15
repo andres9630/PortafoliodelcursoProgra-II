@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 package proyecto;
 
+=======
+package luis;
+>>>>>>> fe791e6 (Modificando proyecto)
 
 /**
  * Esta clase es el manejador de archivos.

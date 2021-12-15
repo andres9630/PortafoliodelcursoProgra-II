@@ -31,6 +31,7 @@ public class Empresa {
     public List<Empleado> mostrarEmpleados() {
        return empleados;
 
+<<<<<<< HEAD
     }
 
     public boolean DeleteEmpleados() {
@@ -44,11 +45,30 @@ public class Empresa {
         for (Empleado empleado : empleados) {
             ManejadorArchivos.insertarDato("Empleados", empleado.toString());
         }
+=======
+>>>>>>> fe791e6 (Modificando proyecto)
     }
     public void cargarArchivo()
     {
         empleados.addAll(ManejadorArchivos.obtenerArrayListArchivo("Empleados"));
 
+<<<<<<< HEAD
+=======
+    public boolean DeleteEmpleados() {
+        return empleados.removeAll(empleados);
+    }
+    
+    public void guardarEnArchivo()
+    {
+        ManejadorArchivos.reiniciar("Empleados");
+        for (Empleado empleado : empleados) {
+            ManejadorArchivos.insertarDato("Empleados", empleado.toString());
+        }
+    }
+    public void cargarArchivo()
+    {
+        empleados.addAll(ManejadorArchivos.obtenerArrayListArchivo("Empleados"));
+>>>>>>> fe791e6 (Modificando proyecto)
     }
     
 }
