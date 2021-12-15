@@ -9,10 +9,6 @@ public class Empleado {
     private double salario;
     private String horario;
     private String fecha;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
 
     public Empleado(String nombre, String ID, Fecha FNacimiento, double salario, String horario) {
         this.nombre = nombre;
@@ -22,30 +18,6 @@ public class Empleado {
         this.horario = horario;
     }
     
-<<<<<<< HEAD
-=======
-
-    public Empleado(String ID,String nombre, String aPaterno, String aMaterno, String FNacimiento, double salario, String horario) {
-        this.nombre = nombre;
-        this.ID = ID;
-        this.fecha = FNacimiento;
-        this.salario = salario;
-        this.horario = horario;
-        this.aPaterno = aPaterno;
-        this.aMaterno = aMaterno;
-    }
-=======
->>>>>>> fe791e6 (Modificando proyecto)
-
-    public Empleado(String nombre, String ID, Fecha FNacimiento, double salario, String horario) {
-        this.nombre = nombre;
-        this.ID = ID;
-        this.FNacimiento = FNacimiento;
-        this.salario = salario;
-        this.horario = horario;
-    }
-    
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
     public Empleado(String ID,String nombre, String aPaterno, String aMaterno, String FNacimiento, double salario, String horario) {
         this.nombre = nombre;
         this.ID = ID;

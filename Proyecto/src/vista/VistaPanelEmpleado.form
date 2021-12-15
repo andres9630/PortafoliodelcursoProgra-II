@@ -117,17 +117,7 @@
                                   <Component id="jButton2" max="32767" attributes="0"/>
                                   <Component id="jButton3" max="32767" attributes="0"/>
                               </Group>
-<<<<<<< HEAD
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-=======
-<<<<<<< HEAD
-
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-
-=======
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
->>>>>>> fe791e6 (Modificando proyecto)
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
                           </Group>
                           <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
                       </Group>

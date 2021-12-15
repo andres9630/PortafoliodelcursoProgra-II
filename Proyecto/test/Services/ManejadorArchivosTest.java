@@ -3,20 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-<<<<<<< HEAD
-package luis;
-=======
-<<<<<<< HEAD
-package proyecto;
-
+package services;
 
 import proyecto.Empleado;
 import proyecto.ManejadorArchivos;
-=======
-package luis;
->>>>>>> fe791e6 (Modificando proyecto)
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
-
 import java.util.ArrayList;
 import static junit.framework.Assert.assertTrue;
 import org.junit.After;
@@ -26,20 +16,10 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
 /**
  *
  * @author Luis Rodolfo
  */
-<<<<<<< HEAD
-=======
->>>>>>> fe791e6 (Modificando proyecto)
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
 public class ManejadorArchivosTest {
     
 
