@@ -3,18 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-<<<<<<< HEAD
-package luis;
-=======
-<<<<<<< HEAD
+package services;
 
-package proyecto;
-
-=======
-package luis;
->>>>>>> fe791e6 (Modificando proyecto)
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
-
+import proyecto.Empleado;
+import proyecto.Empresa;
+import proyecto.Fecha;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
@@ -23,15 +16,7 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertTrue;
 /**
  *
-<<<<<<< HEAD
  * @author Luis Rodolfo
-=======
-<<<<<<< HEAD
-
-=======
- * @author Luis Rodolfo
->>>>>>> fe791e6 (Modificando proyecto)
->>>>>>> e6dcb46f1b56e732174bdebfcb3dbc553c8a26aa
  */
 public class EmpresaTest {
 
