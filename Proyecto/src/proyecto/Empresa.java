@@ -1,4 +1,4 @@
-package luis;
+package proyecto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +35,7 @@ public class Empresa {
 
     public boolean DeleteEmpleados() {
         return empleados.removeAll(empleados);
+
     }
     
     public void guardarEnArchivo()
@@ -47,6 +48,7 @@ public class Empresa {
     public void cargarArchivo()
     {
         empleados.addAll(ManejadorArchivos.obtenerArrayListArchivo("Empleados"));
+
     }
     
 }
