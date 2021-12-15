@@ -5,7 +5,6 @@
  */
 package proyecto;
 
-
 /**
  *
  * @author Kuis Rodolfo

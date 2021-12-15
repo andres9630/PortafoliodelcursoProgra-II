@@ -18,7 +18,6 @@ public class Empleado {
         this.horario = horario;
     }
     
-
     public Empleado(String ID,String nombre, String aPaterno, String aMaterno, String FNacimiento, double salario, String horario) {
         this.nombre = nombre;
         this.ID = ID;
@@ -28,7 +27,6 @@ public class Empleado {
         this.aPaterno = aPaterno;
         this.aMaterno = aMaterno;
     }
-
     public Empleado() {
     }
 

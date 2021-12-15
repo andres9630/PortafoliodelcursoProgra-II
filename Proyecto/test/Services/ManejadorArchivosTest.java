@@ -3,12 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyecto;
-
+package services;
 
 import proyecto.Empleado;
 import proyecto.ManejadorArchivos;
-
 import java.util.ArrayList;
 import static junit.framework.Assert.assertTrue;
 import org.junit.After;
@@ -18,7 +16,10 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-
+/**
+ *
+ * @author Luis Rodolfo
+ */
 public class ManejadorArchivosTest {
     
 
